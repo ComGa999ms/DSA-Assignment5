@@ -188,8 +188,7 @@ return res;
 ## Hashing: KiemKe
 ```C++
 int count_distinct(const vector<string>& ids){
-	map<string,int> Hash; 
-    
+    map<string,int> Hash; 
     for (auto T : ids) Hash[T]++; // đếm số lần xuất hiện
     return Hash.size(); // trả về size là số phần tử khác nhaunhau
 }
